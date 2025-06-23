@@ -62,14 +62,15 @@ class TelegramScraper:
         
         # Ethiopian e-commerce channels to scrape
         self.channels = {
-            "ethiopian_market": "@EthiopianMarket",
-            "addis_mart": "@AddisMart",
-            "ethio_buy_sell": "@EthioBuySell",
-            "addis_online_market": "@AddisOnlineMarket", 
-            "ethiopia_marketplace": "@EthiopiaMarketplace",
-            "addis_trading": "@AddisTrading",
-            "ethio_commerce": "@EthioCommerce",
-            "addis_business": "@AddisBusiness"
+            "mertteka": "@MerttEka",
+            "forfreemarket": "@forfreemarket",
+            "classybrands": "@classybrands",
+            "marakibrand": "@marakibrand",
+            "aradabrand2": "@aradabrand2",
+            "marakisat2": "@marakisat2",
+            "belaclassic": "@belaclassic",
+            "awasmart": "@AwasMart",
+            "qnashcom": "@qnashcom"
         }
         
     def _init_database(self):
@@ -174,12 +175,17 @@ class TelegramScraper:
             elif hasattr(message.media, 'webpage'):
                 media_type = 'webpage'
         
+        # Safely get sender name (user or channel)
+        sender_name = None
+        if message.sender:
+            sender_name = getattr(message.sender, 'first_name', None) or getattr(message.sender, 'title', None)
+        
         return {
             'message_id': message.id,
             'channel_name': channel_name,
             'channel_id': message.peer_id.channel_id if hasattr(message.peer_id, 'channel_id') else None,
             'sender_id': message.sender_id,
-            'sender_name': message.sender.first_name if message.sender else None,
+            'sender_name': sender_name,
             'message_text': message.text or message.raw_text or '',
             'message_date': message.date.isoformat(),
             'is_forwarded': message.forward is not None,
