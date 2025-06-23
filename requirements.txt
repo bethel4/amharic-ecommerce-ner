@@ -1,7 +1,6 @@
 # Telegram API and scraping
 telethon==1.32.1
 python-telegram-bot==20.7
-asyncio
 
 # Data processing and manipulation
 pandas==2.1.4
@@ -12,14 +11,12 @@ python-dotenv==1.0.0
 transformers==4.36.2
 tokenizers==0.15.0
 nltk==3.8.1
-jieba==0.42.1
 
 # Image processing
 Pillow==10.1.0
 opencv-python==4.8.1.78
 
 # Database and storage
-sqlite3
 json5==0.9.14
 
 # Utilities

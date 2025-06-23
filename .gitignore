@@ -1,0 +1,106 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# Data, outputs, and media
+data/
+outputs/
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Large files
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+*.h5
+*.pt
+*.ckpt
+*.pkl
+*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test and coverage outputs
+htmlcov/
+.coverage
+.cache
+pytest_cache/
+
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+venv/
+.env
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data and media files
+/data/raw/*
+/data/processed/*
+/data/external/*
+!/data/raw/README.md
+!/data/processed/README.md
+!/data/external/README.md
+
+# Ignore media files
+/data/raw/media/
+
+# Ignore model files
+/models/*
+!/models/README.md
+
+# Ignore outputs
+/outputs/*
+!/outputs/README.md
+
+# Ignore test outputs
+/tests/*.log
+/tests/*.tmp
+
+# Ignore logs
+*.log
+scraper.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Label Studio export/import files
+*.rdata
+*.bak
+
+# Ignore CSVs and other large exports
+*.csv
+*.tsv
+*.jsonl
+
+# Allow example/sample data
+!data/raw/example*
+!data/processed/example*
