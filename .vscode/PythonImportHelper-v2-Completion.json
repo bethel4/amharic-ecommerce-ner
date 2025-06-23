@@ -1,0 +1,344 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "pformat",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "jmespath",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "exceptions",
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "isExtraImport": true,
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "TelegramClient",
+        "importPath": "telethon",
+        "description": "telethon",
+        "isExtraImport": true,
+        "detail": "telethon",
+        "documentation": {}
+    },
+    {
+        "label": "events",
+        "importPath": "telethon",
+        "description": "telethon",
+        "isExtraImport": true,
+        "detail": "telethon",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "telethon.tl.types",
+        "description": "telethon.tl.types",
+        "isExtraImport": true,
+        "detail": "telethon.tl.types",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentAttributeFilename",
+        "importPath": "telethon.tl.types",
+        "description": "telethon.tl.types",
+        "isExtraImport": true,
+        "detail": "telethon.tl.types",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.bin.jp",
+        "description": ".venv.bin.jp",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser()\n    parser.add_argument('expression')\n    parser.add_argument('-f', '--filename',\n                        help=('The filename containing the input data.  '\n                              'If a filename is not given then data is '\n                              'read from stdin.'))\n    parser.add_argument('--ast', action='store_true',\n                        help=('Pretty print the AST, do not search the data.'))\n    args = parser.parse_args()",
+        "detail": ".venv.bin.jp",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_amharic",
+        "kind": 2,
+        "importPath": "scripts.preprocess",
+        "description": "scripts.preprocess",
+        "peekOfCode": "def normalize_amharic(text):\n    \"\"\"Basic normalization for Amharic text.\"\"\"\n    if not isinstance(text, str):\n        return \"\"\n    # Remove extra spaces, normalize punctuation, etc.\n    text = re.sub(r'[፡።፣፤፥፦፧፨]', ' ', text)  # Remove Amharic punctuation\n    text = re.sub(r'[\\n\\r]+', ' ', text)\n    text = re.sub(r'\\s+', ' ', text).strip()\n    return text\ndef tokenize_amharic(text):",
+        "detail": "scripts.preprocess",
+        "documentation": {}
+    },
+    {
+        "label": "tokenize_amharic",
+        "kind": 2,
+        "importPath": "scripts.preprocess",
+        "description": "scripts.preprocess",
+        "peekOfCode": "def tokenize_amharic(text):\n    \"\"\"Tokenize Amharic text (simple whitespace for now).\"\"\"\n    return text.split()\ndef preprocess_row(row):\n    text = row.get('message_text', '')\n    norm_text = normalize_amharic(text)\n    tokens = tokenize_amharic(norm_text)\n    row['normalized_text'] = norm_text\n    row['tokens'] = ' '.join(tokens)\n    return row",
+        "detail": "scripts.preprocess",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_row",
+        "kind": 2,
+        "importPath": "scripts.preprocess",
+        "description": "scripts.preprocess",
+        "peekOfCode": "def preprocess_row(row):\n    text = row.get('message_text', '')\n    norm_text = normalize_amharic(text)\n    tokens = tokenize_amharic(norm_text)\n    row['normalized_text'] = norm_text\n    row['tokens'] = ' '.join(tokens)\n    return row\ndef preprocess_csv(input_csv, output_csv):\n    df = pd.read_csv(input_csv)\n    tqdm.pandas(desc=\"Preprocessing Amharic messages\")",
+        "detail": "scripts.preprocess",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_csv",
+        "kind": 2,
+        "importPath": "scripts.preprocess",
+        "description": "scripts.preprocess",
+        "peekOfCode": "def preprocess_csv(input_csv, output_csv):\n    df = pd.read_csv(input_csv)\n    tqdm.pandas(desc=\"Preprocessing Amharic messages\")\n    df = df.progress_apply(preprocess_row, axis=1)\n    df.to_csv(output_csv, index=False, encoding='utf-8')\n    print(f\"Processed data saved to {output_csv}\")\ndef main():\n    raw_dir = Path('data/raw')\n    processed_dir = Path('data/processed')\n    processed_dir.mkdir(parents=True, exist_ok=True)",
+        "detail": "scripts.preprocess",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "scripts.preprocess",
+        "description": "scripts.preprocess",
+        "peekOfCode": "def main():\n    raw_dir = Path('data/raw')\n    processed_dir = Path('data/processed')\n    processed_dir.mkdir(parents=True, exist_ok=True)\n    # Process all channel CSVs\n    for csv_file in raw_dir.glob('*_messages.csv'):\n        output_csv = processed_dir / csv_file.name.replace('_messages.csv', '_processed.csv')\n        preprocess_csv(csv_file, output_csv)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "scripts.preprocess",
+        "documentation": {}
+    },
+    {
+        "label": "TelegramScraper",
+        "kind": 6,
+        "importPath": "scripts.scraper",
+        "description": "scripts.scraper",
+        "peekOfCode": "class TelegramScraper:\n    \"\"\"Telegram scraper for collecting e-commerce messages from Ethiopian channels.\"\"\"\n    def __init__(self, api_id: str, api_hash: str, phone: str):\n        \"\"\"\n        Initialize the Telegram scraper.\n        Args:\n            api_id: Telegram API ID\n            api_hash: Telegram API Hash\n            phone: Phone number for authentication\n        \"\"\"",
+        "detail": "scripts.scraper",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "scripts.scraper",
+        "description": "scripts.scraper",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass TelegramScraper:\n    \"\"\"Telegram scraper for collecting e-commerce messages from Ethiopian channels.\"\"\"\n    def __init__(self, api_id: str, api_hash: str, phone: str):\n        \"\"\"\n        Initialize the Telegram scraper.\n        Args:\n            api_id: Telegram API ID\n            api_hash: Telegram API Hash\n            phone: Phone number for authentication",
+        "detail": "scripts.scraper",
+        "documentation": {}
+    },
+    {
+        "label": "test_imports",
+        "kind": 2,
+        "importPath": "test_setup",
+        "description": "test_setup",
+        "peekOfCode": "def test_imports():\n    \"\"\"Test if all required packages can be imported.\"\"\"\n    print(\"Testing imports...\")\n    try:\n        import telethon\n        print(\"✓ Telethon imported successfully\")\n    except ImportError as e:\n        print(f\"✗ Failed to import Telethon: {e}\")\n        return False\n    try:",
+        "detail": "test_setup",
+        "documentation": {}
+    },
+    {
+        "label": "test_env_file",
+        "kind": 2,
+        "importPath": "test_setup",
+        "description": "test_setup",
+        "peekOfCode": "def test_env_file():\n    \"\"\"Test if .env file exists and has required variables.\"\"\"\n    print(\"\\nTesting .env file...\")\n    env_file = Path('.env')\n    if not env_file.exists():\n        print(\"✗ .env file not found\")\n        return False\n    print(\"✓ .env file exists\")\n    # Load environment variables\n    from dotenv import load_dotenv",
+        "detail": "test_setup",
+        "documentation": {}
+    },
+    {
+        "label": "test_directory_structure",
+        "kind": 2,
+        "importPath": "test_setup",
+        "description": "test_setup",
+        "peekOfCode": "def test_directory_structure():\n    \"\"\"Test if required directories exist.\"\"\"\n    print(\"\\nTesting directory structure...\")\n    required_dirs = [\n        'data/raw',\n        'data/processed', \n        'data/external',\n        'notebooks',\n        'scripts',\n        'src',",
+        "detail": "test_setup",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "test_setup",
+        "description": "test_setup",
+        "peekOfCode": "def main():\n    \"\"\"Run all tests.\"\"\"\n    print(\"🔍 Testing Amharic E-commerce NER Setup\\n\")\n    tests = [\n        test_imports,\n        test_env_file,\n        test_directory_structure\n    ]\n    passed = 0\n    total = len(tests)",
+        "detail": "test_setup",
+        "documentation": {}
+    }
+]
