@@ -69,6 +69,11 @@ venv/
 !/data/processed/README.md
 !/data/external/README.md
 
+# Allow specific labeling and sample files
+!data/processed/*_template.txt
+!data/processed/*_sample.conll
+!data/processed/*_labeling.txt
+
 # Ignore media files
 /data/raw/media/
 
@@ -96,10 +101,12 @@ Thumbs.db
 *.rdata
 *.bak
 
-# Ignore CSVs and other large exports
+# Ignore large CSV files but allow small samples
 *.csv
 *.tsv
 *.jsonl
+!data/processed/*_sample.csv
+!data/processed/*_template.csv
 
 # Allow example/sample data
 !data/raw/example*
