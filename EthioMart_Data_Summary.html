@@ -1,0 +1,41 @@
+<h1 id="ethiomart-amharic-e-commerce-ner-project-data-preparation-labeling-summary">EthioMart Amharic E-commerce NER Project: Data Preparation &amp; Labeling Summary</h1>
+<h2 id="project-overview">Project Overview</h2>
+<p>EthioMart aims to centralize e-commerce data from multiple Ethiopian Telegram channels, making it easier to search, analyze, and support business decisions such as vendor credit scoring. Our project’s first phase focuses on collecting, cleaning, and labeling Amharic e-commerce messages for Named Entity Recognition (NER).</p>
+<hr />
+<h2 id="data-collection-ingestion">1. Data Collection &amp; Ingestion</h2>
+<p><strong>Channels Targeted:</strong><br />
+We identified and connected to 9 major Ethiopian e-commerce Telegram channels, including:<br />
+<code>@MerttEka</code>, <code>@forfreemarket</code>, <code>@classybrands</code>, <code>@marakibrand</code>, <code>@aradabrand2</code>, <code>@marakisat2</code>, <code>@belaclassic</code>, <code>@AwasMart</code>, <code>@qnashcom</code>.</p>
+<p><strong>Automated Scraper:</strong><br />
+Using the Telethon library, we built a custom Python scraper to: - Join and monitor the selected channels. - Download recent posts (text and images). - Store all messages, media, and metadata (sender, timestamp, etc.) in a structured format.</p>
+<p><strong>Volume Collected:</strong><br />
+Over 4,400 messages were collected, including both text and media, and stored in CSV and database formats for further processing.</p>
+<hr />
+<h2 id="data-preprocessing">2. Data Preprocessing</h2>
+<p><strong>Text Cleaning:</strong><br />
+- Removed duplicates, junk, and irrelevant content. - Normalized Amharic text (handled punctuation, whitespace, and special characters). - Tokenized messages for easier downstream processing.</p>
+<p><strong>Metadata Structuring:</strong><br />
+- Separated message content from metadata (sender, channel, timestamp, etc.). - Ensured all data is stored in a unified, analysis-ready format.</p>
+<p><strong>Output:</strong><br />
+- Cleaned and tokenized messages are saved in <code>data/processed/</code> as CSV files. - Media files are organized in dedicated folders.</p>
+<hr />
+<h2 id="data-labeling-for-ner">3. Data Labeling for NER</h2>
+<p><strong>Labeling Objective:</strong><br />
+To prepare high-quality training data for NER, we manually labeled a subset of messages to identify: - <strong>Product</strong> (B-Product, I-Product) - <strong>Price</strong> (B-PRICE, I-PRICE) - <strong>Location</strong> (B-LOC, I-LOC) - <strong>Other</strong> (O: tokens outside any entity)</p>
+<p><strong>Labeling Process:</strong><br />
+- Sampled 50 representative messages from the cleaned dataset. - Used the CoNLL format: each token is labeled on its own line, with blank lines separating messages. - Provided clear instructions and examples to ensure consistent labeling.</p>
+<p><strong>Example (CoNLL Format):</strong></p>
+<pre><code>የሴቶች    B-Product
+ጫማ      I-Product
+799      B-PRICE
+ብር      I-PRICE
+በአዲስ    B-LOC
+አበባ    I-LOC</code></pre>
+<p><strong>Tools:</strong><br />
+- Labeling was done manually using prepared templates, with future plans to use tools like Label Studio for larger-scale annotation.</p>
+<hr />
+<h2 id="current-status-next-steps">4. Current Status &amp; Next Steps</h2>
+<p><strong>Data collection and cleaning:</strong> Complete. <strong>Initial manual labeling:</strong> Complete for 50 messages; more can be labeled as needed. <strong>Next:</strong> Use labeled data to train and evaluate NER models (e.g., Amharic BERT, XLM-RoBERTa).</p>
+<hr />
+<h2 id="conclusion">Conclusion</h2>
+<p>The project’s data preparation and labeling phase is complete and ready for model training. This foundation will enable EthioMart to build a robust, searchable e-commerce intelligence platform for the Ethiopian market.</p>
